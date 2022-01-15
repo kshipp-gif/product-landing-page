@@ -1,0 +1,156 @@
+.container {
+    max-width: 1764px;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: #5c8018;
+}
+h3 {
+    font-size: 1.4em;
+    font-family: "Gill Sans Nova",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6a5b5c;
+    text-align: center;
+    margin-top: 50px;
+}
+#header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Gill Sans Nova",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid grey;
+    z-index: 2;
+}
+@media (max-width: 150px) { 
+        #header-img {
+        height: auto;
+        width: 150px;
+        float: left;
+    }
+}
+#nav-bar {
+    margin-top: 80px;
+    float: right;
+    margin-right: 80%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-link {
+    display: inline-block;
+    line-height: 1.1em;
+    width: 85px;
+    padding-inline-end: 5px;
+}
+#body-img {
+    margin-top: 175px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#features-group {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.feature-header {
+    font-size: 1.4em;
+    font-family: "Gill Sans Nova",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6a5b5c;
+    text-align: left;
+    margin-top: 20px;
+}
+.feature-description {
+    font-family: "Gill Sans Nova",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    color: #6a5b5c;
+}
+#video {
+    margin-top: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+}
+#gallery-group {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-template-rows: 460px 460px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+.gallery-img-one {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.gallery-img-two {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.gallery-img-three {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.gallery-img-four { 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+#form-group {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background-color: #3d4246;
+    color: white;
+    font-family: "Gill Sans Nova", sans-serif;
+}
+#submit {
+    color: white;
+    background-color: #5c8018;
+    border: 2px solid #5c8018;
+}
+#footer-nav {
+    font-family: "Gill Sans Nova",sans-serif;
+    font-size: 13px;
+}
+#footer-nav:hover {
+    border-bottom: 0.2px solid white;
+}
